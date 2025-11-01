@@ -18,16 +18,16 @@ interface CryptoData {
 }
 
 const cryptoList: Omit<CryptoData, "price">[] = [
-  { id: "bitcoin", name: "Bitcoin", symbol: "BTC", logo: "/bitcoin-logo.png" },
-  { id: "ethereum", name: "Ethereum", symbol: "ETH", logo: "/ethereum-logo.png" },
-  { id: "cardano", name: "Cardano", symbol: "ADA", logo: "/cardano-logo.jpg" },
-  { id: "solana", name: "Solana", symbol: "SOL", logo: "/solana-logo.png" },
-  { id: "polkadot", name: "Polkadot", symbol: "DOT", logo: "/polkadot-logo.png" },
-  { id: "ripple", name: "Ripple", symbol: "XRP", logo: "/ripple-xrp-logo.jpg" },
-  { id: "binancecoin", name: "Binance Coin", symbol: "BNB", logo: "/binance-coin-logo.jpg" },
-  { id: "dogecoin", name: "Dogecoin", symbol: "DOGE", logo: "/dogecoin-logo.png" },
-  { id: "litecoin", name: "Litecoin", symbol: "LTC", logo: "/litecoin-logo.png" },
-  { id: "tron", name: "Tron", symbol: "TRX", logo: "/tron-trx-logo.jpg" },
+  { id: "bitcoin", name: "Bitcoin", symbol: "BTC", logo: "https://crypto-frontend-assets.s3.ap-south-1.amazonaws.com/bitcoin-logo.png" },
+  { id: "ethereum", name: "Ethereum", symbol: "ETH", logo: "https://crypto-frontend-assets.s3.ap-south-1.amazonaws.com/ethereum-logo.png" },
+  { id: "cardano", name: "Cardano", symbol: "ADA", logo: "https://crypto-frontend-assets.s3.ap-south-1.amazonaws.com/cardano-logo.jpg" },
+  { id: "solana", name: "Solana", symbol: "SOL", logo: "https://crypto-frontend-assets.s3.ap-south-1.amazonaws.com/solana-logo.png" },
+  { id: "polkadot", name: "Polkadot", symbol: "DOT", logo: "https://crypto-frontend-assets.s3.ap-south-1.amazonaws.com/polkadot-logo.png" },
+  { id: "ripple", name: "Ripple", symbol: "XRP", logo: "https://crypto-frontend-assets.s3.ap-south-1.amazonaws.com/ripple-xrp-logo.jpg" },
+  { id: "binancecoin", name: "Binance Coin", symbol: "BNB", logo: "https://crypto-frontend-assets.s3.ap-south-1.amazonaws.com/binance-coin-logo.jpg" },
+  { id: "dogecoin", name: "Dogecoin", symbol: "DOGE", logo: "https://crypto-frontend-assets.s3.ap-south-1.amazonaws.com/dogecoin-logo.png" },
+  { id: "litecoin", name: "Litecoin", symbol: "LTC", logo: "https://crypto-frontend-assets.s3.ap-south-1.amazonaws.com/litecoin-logo.png" },
+  { id: "tron", name: "Tron", symbol: "TRX", logo: "https://crypto-frontend-assets.s3.ap-south-1.amazonaws.com/tron-trx-logo.jpg" },
 ]
 
 export default function CryptoPriceTracker() {
